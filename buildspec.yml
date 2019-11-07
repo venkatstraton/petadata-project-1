@@ -12,9 +12,9 @@ phases:
   post_build:
     commands:
     - echo "Entered the post-build phase"
-    - mv target/deploy ./
+    - mv target/spring-boot-example2-0.0.1-SNAPSHOT.war ./
 artifacts:
   files:
-    - deploy/**/*
+    - spring-boot-example2-0.0.1-SNAPSHOT.war/**/*
   discard-paths: yes
     
