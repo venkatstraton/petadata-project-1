@@ -1,20 +1,5 @@
-# This file controls the AWS CodeBuild
-
 version: 0.2
-phases:
-  pre_build:
-    commands:
-    - echo "Entered the pre-build phase"
-  build:
-    commands:
-    - echo "Entered build phase"
-    - mvn clean prepare-package war:exploded
-  post_build:
-    commands:
-    - echo "Entered the post-build phase"
-    - mv target/spring-boot-example2-0.0.1-SNAPSHOT.war spring-boot-example2-0.0.1-SNAPSHOT.war
+
 artifacts:
   files:
-    - spring-boot-example2-0.0.1-SNAPSHOT.war
-    - .ebextensions/**/*
-    
+    - '**/*'
