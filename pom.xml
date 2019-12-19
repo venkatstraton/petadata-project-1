@@ -12,7 +12,7 @@
 	<groupId>com.petadata</groupId>
 	<artifactId>spring-boot-example2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Rajesh1</name>
+	<name>Electro-Store-Web-Application</name>
 	<description>a new project for Spring Boot</description> 
 	<properties>
 		<java.version>1.8</java.version>
